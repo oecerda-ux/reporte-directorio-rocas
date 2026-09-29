@@ -29,5 +29,14 @@ Proyecto inmobiliario Rocas del Águila (Tasco). Este folder contiene el reporte
 - Existe además la tarea programada "Watch Reporte Rocas" (`watch_push.ps1`) que publica sola si el reporte cambia; si se publica directo con `auto_push.bat`, la tarea es opcional.
 - **Seguridad:** nunca pedir, aceptar ni usar tokens de GitHub en el chat ni embebidos en URLs.
 
+## Entorno
+- En este equipo no hay Python: usar Node (leer xlsx descomprimiendo con `unzip` y parseando el XML de las hojas).
+
+## Pendiente: EEPP N°8
+- Al 29-sep-2026 el reporte llega hasta el EEPP N°7 (corte 31-ago-2026, 43,63%). El EEPP N°8 (corte 30-sep-2026) aún no llega.
+- Archivo esperado: `EEPP N°8 Obra Casas Rocas del Aguila Inmobiliario.xlsx` en esta carpeta. Si no está, buscar en Downloads y OneDrive\Documentos.
+- No confundir con `Avance Rx del Aguila MM-2026.xlsx`: es otra serie (L0.5, alcance contrato total, numeración distinta; su hoja "Avance n° 8" es jun-26).
+- Proceso: METODOLOGIA.md §10 y §11 (reajuste sigmoidal, Monte Carlo, pedidas_banco Sigmoidal, `eepp_bruto[oct-26]` a real desde "Total Proyecto" columna "Actual", textos, publicar).
+
 ## Preguntas abiertas
 - EEPP bruto jul-26: 17.706 UF (EEPP N°4+N°5) vs 17.692 UF en el flujo de caja — sin resolver.
