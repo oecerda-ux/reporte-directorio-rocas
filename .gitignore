@@ -1,0 +1,6 @@
+# Fuentes de datos (privadas, no se suben)
+*.xlsx
+*.xls
+*.pdf
+~$*
+.~lock.*
