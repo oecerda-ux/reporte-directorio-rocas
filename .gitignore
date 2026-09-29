@@ -3,4 +3,5 @@
 *.xls
 *.pdf
 ~$*
+*.log
 .~lock.*
